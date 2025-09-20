@@ -1,0 +1,33 @@
+{
+  "name": "virtualbox-rpc",
+  "version": "1.0.0",
+  "description": "Discord Rich Presence integration for VirtualBox VM detection",
+  "main": "RPC.js",
+  "bin": {
+    "virtualbox-rpc": "./RPC.js"
+  },
+  "scripts": {
+    "start": "node RPC.js"
+  },
+  "keywords": [
+    "discord",
+    "rpc",
+    "virtualbox",
+    "vm",
+    "presence"
+  ],
+  "author": "Izhan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/virtualbox-rpc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/virtualbox-rpc/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/virtualbox-rpc#readme",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "ps-list": "^9.0.0"
+  }
+}
